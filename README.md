@@ -67,27 +67,27 @@ Below is a curated comparison of leading commercial Cloud Detection & Response (
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source projects for self-hosted Cloud Detection & Response, eBPF runtime monitoring, and cloud forensics, sorted by **GitHub Star Count** in descending order. 🌟
+Curated open-source projects for self-hosted Cloud Detection & Response, eBPF runtime monitoring, and cloud forensics, sorted by **GitHub Stars_Count** in descending order. 🌟
 
 ### ⚡ Runtime Threat Detection Engines
 
-- **[Falco](https://github.com/falcosecurity/falco)** [![GitHub stars](https://img.shields.io/github/stars/falcosecurity/falco?style=social&color=white)](https://github.com/falcosecurity/falco/stargazers) 🌟
+- **[Falco](https://github.com/falcosecurity/falco)** [![GitHub_Stars](https://img.shields.io/github/stars/falcosecurity/falco?style=social&color=white)](https://github.com/falcosecurity/falco/stargazers) 🌟
   - **The CNCF-graduated runtime threat detection engine and gold standard for container security.** Donated by Sysdig, Falco monitors Linux system calls in real time against customizable rule sets.
   - **Key Capabilities**: Detects container escapes (T1611), privilege escalation, unauthorized shell executions, and Kubernetes audit log anomalies. Extensible via Falcosidekick and Falco Talon. **Apache-2.0**.
 
-- **[Tetragon](https://github.com/cilium/tetragon)** [![GitHub stars](https://img.shields.io/github/stars/cilium/tetragon?style=social&color=white)](https://github.com/cilium/tetragon/stargazers) 🌟
+- **[Tetragon](https://github.com/cilium/tetragon)** [![GitHub_Stars](https://img.shields.io/github/stars/cilium/tetragon?style=social&color=white)](https://github.com/cilium/tetragon/stargazers) 🌟
   - **eBPF-native runtime security and observability enforcement engine by Isovalent (Cisco).**
   - **Key Capabilities**: In-kernel enforcement capable of killing malicious processes before syscall completion. Implements Kubernetes Identity Aware TracingPolicies with minimal p99 overhead. **Apache-2.0**.
 
-- **[Tracee](https://github.com/aquasecurity/tracee)** [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/tracee?style=social&color=white)](https://github.com/aquasecurity/tracee/stargazers) 🌟
+- **[Tracee](https://github.com/aquasecurity/tracee)** [![GitHub_Stars](https://img.shields.io/github/stars/aquasecurity/tracee?style=social&color=white)](https://github.com/aquasecurity/tracee/stargazers) 🌟
   - **eBPF-driven runtime security and forensic data collection tool by Aqua Security.**
   - **Key Capabilities**: Uses eBPF technology to trace system calls and events at runtime, evaluating behavior against built-in signatures and custom Rego policies. **Apache-2.0**.
 
-- **[KubeArmor](https://github.com/kubearmor/KubeArmor)** [![GitHub stars](https://img.shields.io/github/stars/kubearmor/KubeArmor?style=social&color=white)](https://github.com/kubearmor/KubeArmor/stargazers) 🌟
+- **[KubeArmor](https://github.com/kubearmor/KubeArmor)** [![GitHub_Stars](https://img.shields.io/github/stars/kubearmor/KubeArmor?style=social&color=white)](https://github.com/kubearmor/KubeArmor/stargazers) 🌟
   - **LSM-based container runtime security enforcement engine (AppArmor, SELinux, BPF-LSM).**
   - **Key Capabilities**: Restricts system capabilities, file accesses, and process executions at the Linux kernel level. **Apache-2.0**.
 
-- **[Sysdig OSS](https://github.com/draios/sysdig)** [![GitHub stars](https://img.shields.io/github/stars/draios/sysdig?style=social&color=white)](https://github.com/draios/sysdig/stargazers) 🌟
+- **[Sysdig OSS](https://github.com/draios/sysdig)** [![GitHub_Stars](https://img.shields.io/github/stars/draios/sysdig?style=social&color=white)](https://github.com/draios/sysdig/stargazers) 🌟
   - **Open-source system-level exploration and capture engine.**
   - **Key Capabilities**: Deep system call auditing and forensic capture file creation for Linux workloads. **Apache-2.0**.
 
@@ -95,7 +95,7 @@ Curated open-source projects for self-hosted Cloud Detection & Response, eBPF ru
 
 ### ☸️ Kubernetes Runtime Detection
 
-- **[Kubescape node-agent](https://github.com/kubescape/node-agent)** [![GitHub stars](https://img.shields.io/github/stars/kubescape/node-agent?style=social&color=white)](https://github.com/kubescape/node-agent/stargazers) 🌟
+- **[Kubescape node-agent](https://github.com/kubescape/node-agent)** [![GitHub_Stars](https://img.shields.io/github/stars/kubescape/node-agent?style=social&color=white)](https://github.com/kubescape/node-agent/stargazers) 🌟
   - **eBPF-based Kubernetes runtime detection agent with CEL rules and malware scanning.**
   - **Key Capabilities**: Evaluates security rules using Kubernetes CEL expressions, builds behavioral baselines, performs ClamAV malware scanning, and generates real-time SBOMs with Syft. **Apache-2.0**.
 
@@ -103,7 +103,7 @@ Curated open-source projects for self-hosted Cloud Detection & Response, eBPF ru
 
 ### 🌐 Network Detection & Response (NDR)
 
-- **[Clear NDR Community (SELKS)](https://github.com/StamusNetworks/SELKS)** [![GitHub stars](https://img.shields.io/github/stars/StamusNetworks/SELKS?style=social&color=white)](https://github.com/StamusNetworks/SELKS/stargazers) 🌟
+- **[Clear NDR Community (SELKS)](https://github.com/StamusNetworks/SELKS)** [![GitHub_Stars](https://img.shields.io/github/stars/StamusNetworks/SELKS?style=social&color=white)](https://github.com/StamusNetworks/SELKS/stargazers) 🌟
   - **Production-grade open-source Suricata Network Detection & Response platform with AI interfaces (MCP).**
   - **Key Capabilities**: Complete turnkey NDR solution combining Suricata 8.0, OpenSearch, Arkime packet capture, and Scirius threat hunting UI. **GPLv3**.
 
@@ -111,15 +111,15 @@ Curated open-source projects for self-hosted Cloud Detection & Response, eBPF ru
 
 ### ☁️ Cloud Control-Plane & Forensics
 
-- **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers) 🌟
+- **[Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)** [![GitHub_Stars](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=social&color=white)](https://github.com/cloud-custodian/cloud-custodian/stargazers) 🌟
   - **Stateless open-source rules engine for real-time cloud security, governance, and automated response.**
   - **Key Capabilities**: Real-time evaluation of AWS CloudTrail, Azure Event Grid, and GCP Audit Logs with automated remediation actions. **Apache-2.0**.
 
-- **[Prowler](https://github.com/prowler-cloud/prowler)** [![GitHub stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers) 🌟
+- **[Prowler](https://github.com/prowler-cloud/prowler)** [![GitHub_Stars](https://img.shields.io/github/stars/prowler-cloud/prowler?style=social&color=white)](https://github.com/prowler-cloud/prowler/stargazers) 🌟
   - **Multi-cloud security assessment, auditing, and incident response tool.**
   - **Key Capabilities**: Over 300+ security controls mapping to MITRE ATT&CK, CIS Benchmarks, and SOC2 across AWS, Azure, GCP, and Kubernetes. **Apache-2.0**.
 
-- **[Argus](https://github.com/nssriraam/argus)** [![GitHub stars](https://img.shields.io/github/stars/nssriraam/argus?style=social&color=white)](https://github.com/nssriraam/argus/stargazers) 🌟
+- **[Argus](https://github.com/nssriraam/argus)** [![GitHub_Stars](https://img.shields.io/github/stars/nssriraam/argus?style=social&color=white)](https://github.com/nssriraam/argus/stargazers) 🌟
   - **Open-source AWS & Azure cloud forensics and threat detection engine.**
   - **Key Capabilities**: Correlates CloudTrail and Azure Activity logs against MITRE ATT&CK attack chains with zero infrastructure cost. **Apache-2.0**.
 
@@ -131,7 +131,7 @@ Contributions are welcome! Please follow these simple guidelines:
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/edit** entries in `README.md` following the tabular/structured format.
-3. 🔬 **Verify** links, pricing data, and GitHub star counts.
+3. 🔬 **Verify** links, pricing data, and GitHub Stars_Counts.
 4. 🚀 **Submit a Pull Request** with a concise title and description.
 
 Check out our full awesome meta-list: [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)! ⭐
